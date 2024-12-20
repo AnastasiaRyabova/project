@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Гайд по туризму в городе Нижний Тагил</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<span class="nav-links">
+					<a href="#guide_is" class="a_nav" onclick="closeMenu()">Гайд - это...</a>
+					<a href="#Nizhny_Tagil" class="a_nav" onclick="closeMenu()">Нижний Тагил</a>
+					<a href="#how_to_get_there" class="a_nav" onclick="closeMenu()">Как добраться</a>
+					<a href="#where_to_stay_overnight" class="a_nav" onclick="closeMenu()">Где переночевать?</a>
+					<a href="#where_to_eat" class="a_nav" onclick="closeMenu()">Где перекусить?</a>
+					<a href="#souvenirs" class="a_nav" onclick="closeMenu()">Сувениры</a>
+					<a href="#different_seasons" class="a_nav" onclick="closeMenu()">Разные сезоны</a>
+					<a href="#transport" class="a_nav" onclick="closeMenu()">Транспорт</a>
+					<a href="#main_attractions" class="a_nav" onclick="closeMenu()">Главные достопримечательности</a>
+					<a href="#useful_links" class="a_nav" onclick="closeMenu()">Полезные ссылки</a>
+			</span>
+			<div class="menu-toggle" onclick="toggleMenu()">
+				<div class="menu-toggle_line"></div>
+				<div class="menu-toggle_line"></div>
+				<div class="menu-toggle_line"></div>
+			</div>
+		</nav>
+		<div class="parallax">
+			<div class="container_img_and_h">
+				<img src="image/header.png" class="img_header">
+				<img src="image/header_copy.png" class="img_header_copy" id="img_header_copy">
+				<h2 class="title_second" id="title_second">Гайд по туризму в городе</h2>
+				<h1 class="title_first" id="title_first">Нижний Тагил</h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<img src="image/cloud.png" id="cloud_1" class="cloud_1">
+			<img src="image/cloud.png" id="cloud_2" class="cloud_2">
+			<img src="image/cloud.png" id="cloud_3" class="cloud_3">
+			<img src="image/lis_gor.png" class="lis_gor" id="lis_gor">
+			<img src="image/lis_gor_background_parallax.png" class="lis_gor_parallax" id="lis_gor_parallax">
+			<div class="block_guide_is" id="guide_is">
+				<img src="image/lis_gor_background.png" class="lis_gor_background">
+				<img src="image/guide_is_text.png" class="guide_is_text" id="guide_is_text">
+				<img src="image/man-woman.png" class="man-woman" id="man-woman">
+				<img src="image/man.png" class="man" id="man">
+				<img src="image/paper.png" class="paper">
+				<div class="zapiska">
+					<p class="zapiska_text_1">— это информационный ресурс, который помогает путешественникам и местным жителям лучше узнать этот уникальный город, его культуру, историю и достопримечательности.</p>
+					<p class="zapiska_text_2"><br>В гайде можно найти полезные ссылки и лайфхаки для комфортного и незабываемого путешествия по Нижнему Тагилу.</p>
+				</div>
+		</section>
+		<section class="Nizhny_Tagil">
+			<img src="image/Nizhny_Tagil-background.png" class="Nizhny_Tagil-background">
+			<h2 class="Nizhny_Tagil_h2" id="Nizhny_Tagil">Нижний Тагил</h2>
+			<div class="NT_inf">
+				<div class="NT_inf-text">
+					<p>Город, который привлекает путешественников своей атмосферой и богатым наследием. Он славится своей историей как один из старейших промышленных центров России, где сохранились памятники архитектуры и старинные заводы, рассказывающие о развитии металлургии и машиностроения. Прогуливаясь по улицам города, можно ощутить дух времени и узнать много интересного о его прошлом.</p>
+				</div>
+				<div class="NT_inf-img">
+					<img src="image/NT_img.png" class="NT_inf_img">
+				</div>
+			</div>
+		</section>
+		<section class="how_to_get_to">
+			<img src="image/map.png" class="how_to_get_to-img">
+			<h2 class="how_to_get_to-h2" id="how_to_get_there">Как добраться до Нижнего Тагила?</h2>
+			<p class="how_to_get_to-p">Добраться до Нижнего Тагила можно разными способами, в зависимости от вашего местоположения и предпочтений. Вот несколько вариантов, как прибыть в город металлургов:</p>
+			<div class="container_card">
+				<div class="card">
+					<img src="image/car.png" class="card_img">
+					<div class="gradient" id="gradient"></div>
+					<h3 class="card_h3" id="card_h3">На автомобиле</h3>
+					<p class="card_p" id="card_p">Если вы предпочитаете путешествовать на собственном автомобиле, то Нижний Тагил расположен на трассе М-5. Из Екатеринбурга нужно двигаться по трассе А-360, следуя указателям. Время в пути составит около 2-3 часов, в зависимости от дорожных условий.</p>
+				</div>
+				<div class="card">
+					<img src="image/bus.png" class="card_img">
+					<div class="gradient" id="gradient"></div>
+					<h3 class="card_h3"id="card_h3">На автобусе</h3>
+					<p class="card_p" id="card_p">Автобус — еще один популярный способ добраться до Нижнего Тагила. Из близлежащих городов, таких как Екатеринбург, можно взять междугородний автобус. Автобусы отправляются с автовокзалов и обычно ходят несколько раз в день.</p>
+				</div>
+				<div class="card">
+					<img src="image/train.png" class="card_img">
+					<div class="gradient" id="gradient"></div>
+					<h3 class="card_h3"id="card_h3">На поезде</h3>
+					<p class="card_p" id="card_p">Если вы находитесь в другом городе России, самый удобный способ — это поезд. Нижний Тагил имеет железнодорожное сообщение с крупными городами, такими как Екатеринбург и Челябинск. Поезда отправляются регулярно, и время в пути может варьироваться от 2 до 6 часов в зависимости от маршрута.</p>
+				</div>
+				<div class="card">
+					<img src="image/airplane.png" class="card_img">
+					<div class="gradient" id="gradient"></div>
+					<h3 class="card_h3"id="card_h3">На самолёте</h3>
+					<p class="card_p" id="card_p">Ближайший аэропорт находится в Екатеринбурге. Оттуда можно взять такси или воспользоваться автобусом до Нижнего Тагила. Это самый быстрый способ, если вы находитесь далеко от региона.</p>
+				</div>
+			</div>
+		</section>
+		<section class="where_to">
+			<img src="image/Nizhny_Tagil-background.png" class="Nizhny_Tagil-background">
+			<div class="where_to_stay_overnight_where_to_eat_inf">
+				<div class="inf-text">
+					<h2 class="where_to_h2" id="where_to_stay_overnight">Где переночевать в городе?</h2>
+					<p>Нижний Тагил предлагает разнообразные варианты размещения для туристов и путешественников. Некоторые из наиболее популярных отелей - это "Тагил", "Гостиница Урал", "Левша" и "Северный". Данные отели имеют всё необходимое для комфортного проживания. Также в Нижнем Тагиле есть несколько хостелов, которые идеально подходят для молодежи и бюджетных путешественников. Они предлагают общие номера и возможность познакомиться с другими туристами.</p>
+				</div>
+				<div class="inf-text">
+					<h2 class="where_to_h2" id="where_to_eat">Где перекусить в городе?</h2>
+					<p>В городе есть много уютных мест с разнообразным меню, где можно попробовать как русскую, так и кухню других стран. Такими местами являются ресторан "Тагил", кафе “Своя компания”, “ЕмСам”, “Хачапури”, “Демидовский Двор” и много других чудесных заведений. Для любителей быстрого питания в городе есть известные сети фастфуда, где можно быстро перекусить. Также популярна сеть "Теремок", предлагающая традиционные русские блины и другие закуски.</p>
+				</div>
+			</div>
+		</section>
+		<section class="tray">
+			<img src="image/tablecloth.png" class="tablecloth-background">
+			<img src="image/large_tray.png" class="large_tray">
+			<img src="image/small_tray.png" class="small_tray">
+			<div class="inf_tray">
+				<h3 class="tray_h3" id="souvenirs">Тагильский Поднос - самый главный<br>сувенир из Нижнего Тагила!</h3>
+				<p class="tray_p">Традиционное изделие, которое изготавливается в Нижнем Тагиле, Россия. Он является частью богатой истории и культурного наследия Урала. Тагильские подносы известны своим уникальным дизайном и техникой исполнения.</p>
+			</div>
+		</section>
+		<section class="different_seasons">
+			<img src="image/sky.png" class="sky" id="different_seasons">
+			<img src="image/different_seasons.png" class="seasons_img">
+			<img src="image/clouds_seasons.png" class="clouds_seasons">
+			<p class="different_seasons_p">Лучшее время для поездки в Нижний Тагил — с середины июня по конец августа. В это время на Урал приходит тепло и начинается сезон активного туризма. Зимой в эти края едут экстремалы, чтобы отправиться в лыжные походы по окрестным горам и полюбоваться живописной природой. Летом погода в Нижнем Тагиле нестабильна. Сильная жара может смениться осадками и прохладой, поэтому вместе с купальником нужно взять с собой комплект теплой одежды, дождевик или зонт. В поездке пригодится спрей от гнуса и клещей, противоаллергическая мазь от укусов. В походе понадобится аптечка первой помощи, приборы ориентирования на местности, сигнальные средства оповещения.</p>
+		</section>
+		<section class="transport">
+			<img src="image/bus_bg.png" class="bus_bg">
+			<div class="zapiska_transport">
+				<img src="image/paper.png" class="paper_transport">
+				<p class="transport_p">Добраться в любую точку Нижнего Тагила не составит проблемы. В городе 65 автобусных и 11 трамвайных маршрутов, связывающих центр со спальными районами и пригородом.<br><br>До населенных пунктов области ходят 35 пригородных поездов и электричек, есть регулярное автобусное сообщение. Вызвать такси можно через приложения федеральных агрегаторов «Яндекс.Go», «Максим» и «Везет», а также по телефонам региональных и городских служб.</p>
+			</div>
+			<img src="image/transport.png" class="transport_text" id="transport">
+			<img src="image/tourist.png" class="tourist" id="tourist">
+		</section>
+		<section class="main_attractions">
+			<img src="image/theater.png" class="theater">
+			<h3 class="main_attractions_h3" id="main_attractions">Главные достопримечательности</h3>
+			<h2 class="main_attractions_h2">Нижнего Тагила</h2>
+			<div class="main_attractions_conteiner">
+				<div>
+					<p class="main_attractions_p1">Для гостей Нижнего Тагила городской центр туризма разработал пешеходный маршрут «Малахитовая линия», объединяющий 33 самых интересных объекта.</p>
+					<a class="btn" href="https://malahitline.ru/">Перейти на сайт</a>
+				</div>
+				<p class="main_attractions_p2">"Малахитовая линия"<br>- пешеходный маршрут Нижнего Тагила, который объединяет в себя ключевые исторические, культурные и архитектурные объекты прошлого и настоящего.<br><br>Маршрут обозначен специальной разметкой на асфальте (зеленая полоса). Маршрут замкнут и позволяет вернуться в исходную точку. Его длина составляет 5,7 км.</p>
+			</div>
+		</section>
+		<section class="link">
+			<img src="image/lis_gor.png" class="lis_gor_parallax_t" id="lis_gor_t">
+			<img src="image/lis_gor_background.png" class="lis_gor_background_t">
+			<h3 id="useful_links" class="title_link">Полезные ссылки</h3>
+			<div class="con_link">
+				<div class="group_1">
+					<a href="http://www.tagilpodnos.ru/"><img src="image/link_tray.png" alt="Оффициальный сайт Тагильский поднос" style="margin-top: 7px; margin-left: 10px;"></a>
+					<a href="https://malahitline.ru/"><img src="image/link_line.png" alt="Оффициальный сайт Малахитовая линия" style="margin-top: 10px;"></a>
+				</div>
+				<div class="group_2">
+					<a href="https://www.avtovokzal.org/"><img src="image/link_bus_station.png" alt="Оффициальный сайт автовокзала"></a>
+					<a href="https://svx.aero/"><img src="image/link_airport.png" alt="Оффициальный сайт аэропорта Кольцова"></a>
+					<a href="https://www.rzd.ru/"><img src="image/link_station.png" alt="Оффициальный сайт РЖД" style="margin-top: 3px;"></a>
+				</div>
+				<div class="group_3">
+					<a href="https://ntagil.org/"><img src="image/link_website.png" alt="Оффициальный сайт Нижнего Тагила"></a>
+					<a href="https://101hotels.com/main/cities/nizhny_tagil"><img src="image/lihk_hotel.png" alt="Отели"></a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135603.70593893033!2d59.84220673525967!3d57.92332112859602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43ea64ba1a37ebe7%3A0xc9f97dc521381f32!2z0J3QuNC20L3QuNC5INCi0LDQs9C40LssINCh0LLQtdGA0LTQu9C-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1730381395459!5m2!1sru!2sru" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
